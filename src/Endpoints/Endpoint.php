@@ -1,10 +1,12 @@
 <?php
 
-declare(strict_types = 1);
+declare(strict_types=1);
 
 namespace McMatters\ClearbitApi\Endpoints;
 
 use McMatters\Ticl\Client;
+
+use const null;
 
 /**
  * Class Endpoint

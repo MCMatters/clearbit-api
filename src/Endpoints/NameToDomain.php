@@ -1,6 +1,6 @@
 <?php
 
-declare(strict_types = 1);
+declare(strict_types=1);
 
 namespace McMatters\ClearbitApi\Endpoints;
 
@@ -15,6 +15,7 @@ class NameToDomain extends Endpoint
      * @param string $name
      *
      * @return array
+     *
      * @throws \InvalidArgumentException
      * @throws \McMatters\Ticl\Exceptions\JsonDecodingException
      * @throws \McMatters\Ticl\Exceptions\RequestException

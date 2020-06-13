@@ -1,6 +1,6 @@
 <?php
 
-declare(strict_types = 1);
+declare(strict_types=1);
 
 namespace McMatters\ClearbitApi\Endpoints;
 
@@ -16,6 +16,7 @@ class Person extends Endpoint
      * @param array $query
      *
      * @return array
+     *
      * @throws \InvalidArgumentException
      * @throws \McMatters\Ticl\Exceptions\JsonDecodingException
      * @throws \McMatters\Ticl\Exceptions\RequestException
@@ -35,6 +36,7 @@ class Person extends Endpoint
      * @param array $body
      *
      * @return array
+     *
      * @throws \InvalidArgumentException
      * @throws \McMatters\Ticl\Exceptions\JsonDecodingException
      * @throws \McMatters\Ticl\Exceptions\RequestException

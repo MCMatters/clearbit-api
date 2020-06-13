@@ -1,6 +1,6 @@
 <?php
 
-declare(strict_types = 1);
+declare(strict_types=1);
 
 namespace McMatters\ClearbitApi;
 
@@ -8,6 +8,7 @@ use McMatters\ClearbitApi\Endpoints\{
     Autocomplete, Combined, Company, Discovery, NameToDomain, Person,
     Prospector, Reveal, Risk
 };
+
 use const null;
 
 /**
